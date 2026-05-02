@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: LXD\n"
 "Report-Msgid-Bugs-To: lxc-devel@lists.linuxcontainers.org\n"
 "POT-Creation-Date: 2026-05-01 14:24+0200\n"
-"PO-Revision-Date: 2026-05-01 23:58+0000\n"
-"Last-Translator: Hiroaki Nakamura <hnakamur@gmail.com>\n"
+"PO-Revision-Date: 2026-05-03 04:10+0000\n"
+"Last-Translator: Kazantsev Mikhail <kazan417@mail.ru>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/incus/cli/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -648,9 +648,9 @@ msgid "%s is not a directory"
 msgstr "%s はディレクトリではありません"
 
 #: cmd/incus/usage/usage.go:343
-#, c-format
+#, c-format, fuzzy
 msgid "%s the %s syntax is deprecated; %s\n"
-msgstr ""
+msgstr "%s の %s 構文は非推奨です。 %s\n"
 
 #: cmd/incus/utils_sftp.go:280
 #, c-format
@@ -658,17 +658,18 @@ msgid "'%s' isn't a supported file type"
 msgstr "'%s' はサポートされないタイプのファイルです"
 
 #: cmd/incus/usage/parse.go:238
-#, c-format
+#, c-format, fuzzy
 msgid "(skipped: %s)\n"
-msgstr ""
+msgstr "(スキップ: %s)\n"
 
 #: cmd/incus/usage/parse.go:240
+#, fuzzy
 msgid "(skipped: no value given)"
-msgstr ""
+msgstr "（スキップ：値が指定されていません）"
 
 #: cmd/incus/usage/parse.go:35
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: cmd/incus/info.go:323
 #, c-format
@@ -720,9 +721,12 @@ msgid "--no-dereference/-P cannot be used together with stdout as a target"
 msgstr "--no-profiles と --refresh は同時に指定できません"
 
 #: cmd/incus/utils_copy.go:40
+#, fuzzy
 msgid ""
 "--no-dereference/-P, --follow/-H, and --dereference/-L are mutually exclusive"
 msgstr ""
+"--no-dereference/-P、--follow/-H、および--dereference/-Lは同時に使用できませ"
+"ん。"
 
 #: cmd/incus/profile.go:227
 #, fuzzy
@@ -738,16 +742,18 @@ msgid "--project cannot be used with the query command"
 msgstr "--project は query コマンドでは使えません"
 
 #: cmd/incus/utils_copy.go:101 cmd/incus/utils_copy.go:146
+#, fuzzy
 msgid "--recursive/-r is required when pulling directories"
-msgstr ""
+msgstr "--recursive/-r はディレクトリを引っ張るとき要求されます"
 
 #: cmd/incus/copy.go:165
 msgid "--refresh can only be used with instances"
 msgstr "--refresh はインスタンスの場合のみ使えます"
 
 #: cmd/incus/image.go:217
+#, fuzzy
 msgid "--reuse requires --copy-aliases"
-msgstr ""
+msgstr "--reuse は --copy-aliases が必要です"
 
 #: cmd/incus/move.go:213
 msgid "--target can only be used with clusters"
@@ -768,14 +774,18 @@ msgid "A client certificate is already present"
 msgstr "クライアント証明書はすでに存在しています"
 
 #: cmd/incus/file.go:762 cmd/incus/storage_volume.go:2855
+#, fuzzy
 msgid ""
 "A target file name must be specified when pushing from stdin; the target is "
 "a directory"
 msgstr ""
+"Stdin からプッシュするときに、対象のファイル名を指定する必要があります。対象"
+"はディレクトリです"
 
 #: cmd/incus/usage/usage.go:808
+#, fuzzy
 msgid "ACL"
-msgstr ""
+msgstr "ACL"
 
 #: cmd/incus/network_allocations.go:81
 msgid "ADDRESS"
@@ -955,8 +965,9 @@ msgid "Add rules to an ACL"
 msgstr "ACLにルールを追加します"
 
 #: cmd/incus/color/color.go:44
+#, fuzzy
 msgid "Additional Help Topics:"
-msgstr ""
+msgstr "追加ヘルプトピック:"
 
 #: cmd/incus/admin_recover.go:126
 msgid ""
@@ -1038,8 +1049,9 @@ msgstr "別の証明署名"
 
 #: cmd/incus/file.go:450 cmd/incus/file.go:681 cmd/incus/storage_volume.go:2591
 #: cmd/incus/storage_volume.go:2789
+#, fuzzy
 msgid "Always follow symbolic links in source path"
-msgstr ""
+msgstr "常にソースパスの象徴的なリンクに従ってください"
 
 #: cmd/incus/file.go:982
 #, fuzzy, c-format
@@ -2745,8 +2757,9 @@ msgid "Event type to listen for"
 msgstr "Listenするイベントタイプ"
 
 #: cmd/incus/color/color.go:40
+#, fuzzy
 msgid "Examples:"
-msgstr ""
+msgstr "例:"
 
 #: cmd/incus/admin_sql.go:29
 msgid "Execute a SQL query against the local or global database"
@@ -3333,13 +3346,15 @@ msgid "Fingerprint: %s"
 msgstr "証明書のフィンガープリント: %s"
 
 #: cmd/incus/color/color.go:42
+#, fuzzy
 msgid "Flags:"
-msgstr ""
+msgstr "旗:"
 
 #: cmd/incus/file.go:449 cmd/incus/file.go:680 cmd/incus/storage_volume.go:2590
 #: cmd/incus/storage_volume.go:2788
+#, fuzzy
 msgid "Follow command-line symbolic links in source path"
-msgstr ""
+msgstr "ソースパスでコマンドラインのシンボリックリンクに従ってください"
 
 #: cmd/incus/cluster.go:1459
 msgid "Force a particular evacuation action"
@@ -3368,8 +3383,9 @@ msgstr "ユーザーの確認なしで強制的に待避させます"
 
 #: cmd/incus/export.go:53 cmd/incus/storage_bucket.go:1300
 #: cmd/incus/storage_volume.go:3650
+#, fuzzy
 msgid "Force overwriting existing backup file"
-msgstr ""
+msgstr "既存のバックアップファイルを上書きする強制"
 
 #: cmd/incus/exec.go:65
 msgid "Force pseudo-terminal allocation"
@@ -3549,10 +3565,12 @@ msgstr ""
 "これは、他の Incus サーバーに渡されるリモート認証ワークフローに役立ちます。"
 
 #: cmd/incus/image.go:1729
+#, fuzzy
 msgid "Generate a metadata tarball"
-msgstr ""
+msgstr "メタデータのタルボールを生成する"
 
 #: cmd/incus/image.go:1731
+#, fuzzy
 msgid ""
 "Generate a metadata tarball\n"
 "\n"
@@ -3566,6 +3584,18 @@ msgid ""
 " - Architecture\n"
 " - Description\n"
 msgstr ""
+"メタデータのタルボールを生成する\n"
+"\n"
+"このコマンドは、既存のQCOW2またはSteamshfsディスクイメージでインポート中に使"
+"用するためのincus.tar.xzのtarballを生成します。\n"
+"\n"
+"このコマンドは、すべてのメタデータ tarball フィールドに対してプロンプトが表示"
+"されます。\n"
+"- オペレーティングシステム名\n"
+"- リリース\n"
+"- バリアント\n"
+"- 建築\n"
+"- 説明\n"
 
 #: cmd/incus/manpage.go:27 cmd/incus/manpage.go:28
 msgid "Generate manpages for all commands"
@@ -3751,8 +3781,9 @@ msgstr ""
 "    pool.yaml の内容でストレージボリュームを更新します。"
 
 #: cmd/incus/storage_volume.go:3987
+#, fuzzy
 msgid "Get write access to the disk"
-msgstr ""
+msgstr "ディスクへの書き込みアクセス権を取得する"
 
 #: cmd/incus/storage_volume.go:413
 #, c-format
@@ -3760,8 +3791,9 @@ msgid "Given target %q does not match source volume location %q"
 msgstr "指定したコピー先 %q がコピー元のボリュームの場所 %q と一致しません"
 
 #: cmd/incus/color/color.go:43
+#, fuzzy
 msgid "Global Flags:"
-msgstr ""
+msgstr "グローバルフラグ:"
 
 #: cmd/incus/exec.go:69
 msgid "Group ID to run the command as (default 0)"
@@ -3887,9 +3919,10 @@ msgid "If an instance is running, stop it and then rebuild it"
 msgstr "インスタンスが実行中の場合、停止してからリビルドしてください"
 
 #: cmd/incus/main.go:167
+#, fuzzy
 msgid ""
 "If the command is valid, explain its parsed arguments instead of running it"
-msgstr ""
+msgstr "コマンドが有効である場合、実行の代わりに解析された引数を記述します"
 
 #: cmd/incus/image.go:696 cmd/incus/publish.go:46
 #, fuzzy
@@ -6356,20 +6389,26 @@ msgid "Mount files from custom storage volumes"
 msgstr "新たにカスタムストレージボリュームをインポートします"
 
 #: cmd/incus/storage_volume.go:2397
+#, fuzzy
 msgid ""
 "Mount files from custom storage volumes.\n"
 "If no target path is provided, start an SSH SFTP listener instead."
 msgstr ""
+"カスタムストレージボリュームからファイルをマウントします。\n"
+"ターゲットパスが提供されていない場合は、代わりにSSH SFTPリスナーを起動します."
 
 #: cmd/incus/file.go:918
 msgid "Mount files from instances"
 msgstr "インスタンスからファイルをマウントします"
 
 #: cmd/incus/file.go:919
+#, fuzzy
 msgid ""
 "Mount files from instances.\n"
 "If no target path is provided, start an SSH SFTP listener instead."
 msgstr ""
+"インスタンスからファイルをマウントします。\n"
+"ターゲットパスが提供されていない場合は、代わりにSSH SFTPリスナーを起動します."
 
 #: cmd/incus/storage_volume.go:1672 cmd/incus/storage_volume.go:1673
 #, fuzzy
@@ -6473,9 +6512,9 @@ msgid "NBD client disconnected %q"
 msgstr "SSH クライアントが切断されました %q"
 
 #: cmd/incus/storage_volume.go:4053
-#, c-format
+#, c-format, fuzzy
 msgid "NBD connection failed: %v"
-msgstr ""
+msgstr "NBD接続が失敗しました: %v"
 
 #: cmd/incus/storage_volume.go:4037
 #, fuzzy, c-format
@@ -6767,8 +6806,9 @@ msgstr "ネットワークゾーンレコード %s を削除しました"
 
 #: cmd/incus/file.go:448 cmd/incus/file.go:679 cmd/incus/storage_volume.go:2589
 #: cmd/incus/storage_volume.go:2787
+#, fuzzy
 msgid "Never follow symbolic links in source path"
-msgstr ""
+msgstr "ソースパスでシンボリックリンクをフォローしないでください"
 
 #: cmd/incus/publish.go:42
 msgid "New alias to define at target"
@@ -8208,10 +8248,13 @@ msgid "Set the file's perms on push"
 msgstr "プッシュ時にファイルのパーミションを設定します"
 
 #: cmd/incus/file.go:677
+#, fuzzy
 msgid ""
 "Set the file's perms on push (in recursive mode, sets the target directory's "
 "permissions if it doesn't exist)"
 msgstr ""
+"ファイルのパーマをプッシュ(再帰モードでは、存在しない場合は、対象ディレクトリ"
+"のパーミッションを設定します)"
 
 #: cmd/incus/file.go:111 cmd/incus/storage_volume.go:2168
 #, fuzzy
@@ -8227,12 +8270,18 @@ msgid ""
 "Set the files' GIDs on push (in recursive mode, only sets the target "
 "directory's GID if it doesn't exist and -p is used)"
 msgstr ""
+"ファイルのプッシュ時にGIDを設定します（再帰モードでは、ターゲットディレクトリ"
+"が存在しない場合、かつ-pオプションが使用されている場合にのみ、"
+"ターゲットディレクトリのGIDを設定します）"
 
 #: cmd/incus/file.go:675
 msgid ""
 "Set the files' UIDs on push (in recursive mode, only sets the target "
 "directory's UID if it doesn't exist and -p is used)"
 msgstr ""
+"ファイルのプッシュ時にUIDを設定します（再帰モードでは、ターゲットディレクトリ"
+"が存在しない場合、かつ-pオプションが使用されている場合にのみ、"
+"ターゲットディレクトリのUIDを設定します）"
 
 #: cmd/incus/cluster_group.go:880
 #, fuzzy
@@ -8614,8 +8663,9 @@ msgid "Source:"
 msgstr "取得元:"
 
 #: cmd/incus/storage_volume.go:3986
+#, fuzzy
 msgid "Specific address to listen on"
-msgstr ""
+msgstr "聴くための特定のアドレス"
 
 #: cmd/incus/action.go:36 cmd/incus/action.go:37
 msgid "Start instances"
@@ -9168,9 +9218,9 @@ msgid ""
 msgstr "設定 %q はクラスタメンバー %q には存在しません"
 
 #: cmd/incus/storage_volume.go:746
-#, c-format
+#, c-format, fuzzy
 msgid "The specified disk is not in the given pool (found %s)"
-msgstr ""
+msgstr "指定されたディスクは、指定されたプールにありません(%s)"
 
 #: cmd/incus/file.go:113 cmd/incus/storage_volume.go:2170
 msgid "The type to create (file, symlink, or directory)"
@@ -9202,10 +9252,13 @@ msgid "This command isn't supported on Windows"
 msgstr "入力したバックエンド '%s' は、この初期化ではサポートされていません"
 
 #: cmd/incus/usage/parse.go:111
+#, fuzzy
 msgid ""
 "This command was called with --explain; its arguments are valid, but no "
 "further processing is done"
 msgstr ""
+"このコマンドは --explain で呼び出されました。引数は有効ですが、さらに処理は行"
+"いません"
 
 #: cmd/incus/admin_recover.go:61
 msgid "This server currently has the following storage pools:"
@@ -9702,10 +9755,13 @@ msgid "Usage: %s"
 msgstr "使い方: %s"
 
 #: cmd/incus/main.go:50
+#, fuzzy
 msgid ""
 "Use \"{{.CommandPath}} [<command>] --help\" for more information about a "
 "command."
 msgstr ""
+"コマンドの詳細については、「{{.CommandPath}} [<command>] --help」を使用しま"
+"す."
 
 #: cmd/incus/export.go:51
 msgid ""
@@ -10078,38 +10134,44 @@ msgid "application"
 msgstr "operation"
 
 #: cmd/incus/usage/usage.go:812
+#, fuzzy
 msgid "backend"
-msgstr ""
+msgstr "バックエンド"
 
 #: cmd/incus/usage/usage.go:813
+#, fuzzy
 msgid "backup file"
-msgstr ""
+msgstr "バックアップファイル"
 
 #: cmd/incus/usage/usage.go:814
+#, fuzzy
 msgid "bucket"
-msgstr ""
+msgstr "ストレージバケット"
 
 #: cmd/incus/usage/parse.go:77
-#, c-format
+#, c-format, fuzzy
 msgid "cannot parse this argument; unexpected %s"
-msgstr ""
+msgstr "この引数を解析できません。予期しない %s"
 
 #: cmd/incus/usage/parse.go:80
-#, c-format
+#, c-format, fuzzy
 msgid "cannot parse this argument; unexpected %s in %s"
-msgstr ""
+msgstr "この引数を解析できません。%s で予期しない %s"
 
 #: cmd/incus/cluster.go:1338 cmd/incus/config_trust.go:162
+#, fuzzy
 msgid "cert.crt"
-msgstr ""
+msgstr "cert.crt"
 
 #: cmd/incus/cluster.go:1338
+#, fuzzy
 msgid "cert.key"
-msgstr ""
+msgstr "cert.key"
 
 #: cmd/incus/usage/usage.go:815
+#, fuzzy
 msgid "client"
-msgstr ""
+msgstr "クライアント"
 
 #: cmd/incus/cluster.go:962
 msgid "cluster"
@@ -10171,13 +10233,14 @@ msgid "error: %v"
 msgstr "エラー: %v"
 
 #: cmd/incus/usage/parse.go:95
-#, c-format
+#, c-format, fuzzy
 msgid "expected %s"
-msgstr ""
+msgstr "期待される %s"
 
 #: cmd/incus/usage/usage.go:822
+#, fuzzy
 msgid "expiry"
-msgstr ""
+msgstr "エクスパイリー"
 
 #: cmd/incus/usage/usage.go:823
 msgid "file"
@@ -10194,8 +10257,9 @@ msgid "fingerprint"
 msgstr "証明書のフィンガープリント: %s"
 
 #: cmd/incus/usage/usage.go:826
+#, fuzzy
 msgid "group"
-msgstr ""
+msgstr "グループ"
 
 #: cmd/incus/usage/usage.go:827
 msgid "image"
@@ -11037,6 +11101,12 @@ msgid ""
 "   To start an SSH SFTP listener for the storage volume myvolume from pool "
 "mypool."
 msgstr ""
+"incus storage volume file mount mypool myvolume localdir\n"
+"ストレージボリューム myvolume をプール mypool からローカルディレクトリ "
+"localdir にマウントします。\n"
+"\n"
+"incus storage volume file mount mypool myvolume\n"
+"incus ストレージ ボリューム ファイル マウント mypool myvolume."
 
 #: cmd/incus/storage_volume.go:2775
 #, fuzzy
@@ -11181,8 +11251,9 @@ msgid "interface"
 msgstr "ホストインターフェース"
 
 #: cmd/incus/usage/usage.go:832
+#, fuzzy
 msgid "key"
-msgstr ""
+msgstr "キー"
 
 #: cmd/incus/usage/usage.go:830
 #, fuzzy
@@ -11190,12 +11261,14 @@ msgid "listen address"
 msgstr "リッスンアドレスを指定する必要があります"
 
 #: cmd/incus/usage/usage.go:831
+#, fuzzy
 msgid "listen port"
-msgstr ""
+msgstr "ポートを聴く"
 
 #: cmd/incus/usage/usage.go:834
+#, fuzzy
 msgid "member"
-msgstr ""
+msgstr "メンバー"
 
 #: cmd/incus/remote.go:503
 msgid "n"
@@ -11230,18 +11303,18 @@ msgid "no"
 msgstr "no"
 
 #: cmd/incus/usage/parse.go:50
-#, c-format
+#, c-format, fuzzy
 msgid "not enough arguments; expected a value for %s"
-msgstr ""
+msgstr "十分な引数がない; %s の値が期待される"
 
 #: cmd/incus/remote.go:495
 msgid "ok (y/n/[fingerprint])?"
 msgstr "ok (y/n/[fingerprint])?"
 
 #: cmd/incus/usage/parse.go:35
-#, c-format
+#, c-format, fuzzy
 msgid "one of %s or %s"
-msgstr ""
+msgstr "%s または %s のいずれか"
 
 #: cmd/incus/usage/usage.go:837
 #, fuzzy
@@ -11249,16 +11322,19 @@ msgid "operation"
 msgstr "operation"
 
 #: cmd/incus/usage/usage.go:838
+#, fuzzy
 msgid "path"
-msgstr ""
+msgstr "パス"
 
 #: cmd/incus/usage/usage.go:839
+#, fuzzy
 msgid "peer"
-msgstr ""
+msgstr "パートナー"
 
 #: cmd/incus/usage/legacysupport.go:8
+#, fuzzy
 msgid "please switch to the “<key>=<value>” syntax"
-msgstr ""
+msgstr "「<key>=<value>」の構文に切り替えてください"
 
 #: cmd/incus/config.go:55
 #, fuzzy
@@ -11266,16 +11342,19 @@ msgid "please use `incus profile`"
 msgstr "`lxc profile` コマンドを使ってください"
 
 #: cmd/incus/usage/usage.go:840
+#, fuzzy
 msgid "pool"
-msgstr ""
+msgstr "プール"
 
 #: cmd/incus/usage/usage.go:841
+#, fuzzy
 msgid "port"
-msgstr ""
+msgstr "ポート"
 
 #: cmd/incus/admin_init.go:36
+#, fuzzy
 msgid "preseed.yaml"
-msgstr ""
+msgstr "プレシード.yaml"
 
 #: cmd/incus/usage/usage.go:842
 msgid "profile"
@@ -11292,11 +11371,12 @@ msgstr "不正なプロトコル: %s"
 
 #: cmd/incus/usage/usage.go:845
 msgid "query"
-msgstr ""
+msgstr "クエリ"
 
 #: cmd/incus/usage/usage.go:846
+#, fuzzy
 msgid "record"
-msgstr ""
+msgstr "レコード"
 
 #: cmd/incus/usage/usage.go:847
 #, fuzzy
@@ -11308,8 +11388,9 @@ msgid "role"
 msgstr ""
 
 #: cmd/incus/image.go:684
+#, fuzzy
 msgid "rootfs tarball"
-msgstr ""
+msgstr "ルートファイルシステムアーカイブ"
 
 #: cmd/incus/usage/usage.go:852
 #, fuzzy
@@ -11317,8 +11398,9 @@ msgid "snapshot"
 msgstr "スナップショット:"
 
 #: cmd/incus/remote_unix.go:35
+#, fuzzy
 msgid "socket file"
-msgstr ""
+msgstr "ソケットファイル"
 
 #: cmd/incus/storage.go:523
 msgid "space used"
@@ -11339,12 +11421,14 @@ msgid "stdin can only be used once, with no other source arguments"
 msgstr "--target はインスタンスでは使えません"
 
 #: cmd/incus/usage/usage.go:854
+#, fuzzy
 msgid "symlink target path"
-msgstr ""
+msgstr "シンボリックリンクのターゲットパス"
 
 #: cmd/incus/usage/usage.go:855
+#, fuzzy
 msgid "tarball"
-msgstr ""
+msgstr "アーカイブ"
 
 #: cmd/incus/usage/usage.go:900
 #, fuzzy, c-format
@@ -11356,21 +11440,23 @@ msgid "template"
 msgstr "template"
 
 #: cmd/incus/remote.go:120 cmd/incus/usage/usage.go:857
+#, fuzzy
 msgid "token"
-msgstr ""
+msgstr "トークン"
 
 #: cmd/incus/usage/parse.go:67
-#, c-format
+#, c-format, fuzzy
 msgid "too many arguments; unexpected %s"
-msgstr ""
+msgstr "あまりにも多くの引数; 予期しない %s"
 
 #: cmd/incus/storage.go:522
 msgid "total space"
 msgstr "総容量"
 
 #: cmd/incus/usage/usage.go:853 cmd/incus/usage/usage.go:858
+#, fuzzy
 msgid "type"
-msgstr ""
+msgstr "タイプ"
 
 #: cmd/incus/usage/parse.go:91
 #, fuzzy, c-format
@@ -11378,13 +11464,14 @@ msgid "unexpected %s"
 msgstr "リンクを検出: %v"
 
 #: cmd/incus/usage/parse.go:98
-#, c-format
+#, c-format, fuzzy
 msgid "unexpected %s; expected %s"
-msgstr ""
+msgstr "予期しない %s; 期待 %s"
 
 #: cmd/incus/usage/parse.go:47
+#, fuzzy
 msgid "unexpected end of argument; did you forget a suffix?"
-msgstr ""
+msgstr "引数の予期しない終了; サフィックスを忘れましたか?"
 
 #: cmd/incus/version.go:39
 msgid "unreachable"
@@ -11395,16 +11482,18 @@ msgid "used by"
 msgstr "ストレージを使用中の"
 
 #: cmd/incus/usage/usage.go:860
+#, fuzzy
 msgid "value"
-msgstr ""
+msgstr "バリュー"
 
 #: cmd/incus/usage/usage.go:861
 msgid "volume"
 msgstr "volume"
 
 #: cmd/incus/usage/usage.go:862
+#, fuzzy
 msgid "warning UUID"
-msgstr ""
+msgstr "警告 UUID"
 
 #: cmd/incus/remote.go:505
 msgid "y"
@@ -11417,13 +11506,14 @@ msgid "yes"
 msgstr "yes"
 
 #: cmd/incus/usage/usage.go:863
+#, fuzzy
 msgid "zone"
-msgstr ""
+msgstr "ゾーン"
 
 #: cmd/incus/usage/utils.go:52
-#, c-format
+#, c-format, fuzzy
 msgid "“%s”"
-msgstr ""
+msgstr "「%s」"
 
 #~ msgid "Action (defaults to GET)"
 #~ msgstr "使用するHTTPのメソッド (デフォルト: GET)"
